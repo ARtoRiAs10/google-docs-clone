@@ -8,6 +8,7 @@ import { useState } from "react";
 import { api } from "../../../convex/_generated/api";
 import { toast } from "sonner";
 import { ConvexError } from "convex/values";
+import { cn } from "@/lib/utils";
 
 export const TemplateGallery = () => {
     const router = useRouter();
@@ -38,7 +39,7 @@ export const TemplateGallery = () => {
                                 key={template.id}
                                 className="basis-1/2 pl-4 sm:basis-1/3 md:basis-1/4 lg:basis-1.5 xl:basis-1/6 2xl:basis-[14.285741%]"
                             >
-                                <div>
+                                <div className={cn('flex aspect-[3/4] flex-col gap-y-2.5',isCreating && 'pointer-events-none opacity-50')}>
                                 <button
                     disabled={isCreating}
                     onClick={() => onTemplateClick(template.label, template.initialContent)}
