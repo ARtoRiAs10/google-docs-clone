@@ -189,11 +189,11 @@ bun dev
 ✅ The app should now be running at http://localhost:3000
 
 ## 📸 Screenshots
-  *  Modern UI/UX
+ ![Modern UI/UX](https://github.com/ARtoRiAs10/google-docs-clone/blob/main/.github/images/img1.png)
 
-  *  Real-time Tiptap Editor
+ ![Real-time Tiptap Editor](https://github.com/ARtoRiAs10/google-docs-clone/blob/main/.github/images/img2.png)
 
-  *  Mentions, Replies, and Reactions
+ ![Mentions, Replies, and Reactions](https://github.com/ARtoRiAs10/google-docs-clone/blob/main/.github/images/img3.png)
 
 ## ⚙️ Tech Stack
   *  Frontend: React.js, Next.js, TypeScript, Tailwind CSS
